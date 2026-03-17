@@ -3,7 +3,7 @@ cask "bmor" do
   name "bmor"
   desc "AI coding assistant usage collector for Opsmore"
   homepage "https://github.com/branchmore/cli"
-  version "0.1.0-alpha5"
+  version "0.1.0-alpha-5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "bmor" do
   on_macos do
     on_intel do
       url "https://github.com/branchmore/cli/releases/download/v#{version}/bmor_#{version}_darwin_amd64.tar.gz"
-      sha256 "4f2f830c0a588ae614a77a40a5f9a13b1b03dbbd4cdf019df109f8a07ab82dea"
+      sha256 "7e4ba526f83ae77b47ad47ca8ed4d7dbed0ef87d84032da2b8a855a4c5117ba1"
     end
     on_arm do
       url "https://github.com/branchmore/cli/releases/download/v#{version}/bmor_#{version}_darwin_arm64.tar.gz"
-      sha256 "31d2ab9d5695676f3b15c6221120ba7d047242bbab1de974456d966d8f0ae7f4"
+      sha256 "02aa962c2008cc7f2711eb43a8b2b95686c20860fd69fad134d53161ef2bac34"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/branchmore/cli/releases/download/v#{version}/bmor_#{version}_linux_amd64.tar.gz"
-      sha256 "b90b57bdb89c8f6223b3e0ce29912e2798126a0b0e8faec9107c3c18e4d0496a"
+      sha256 "4e08187db6b497d0c73f70337841c1e429365b81f7f5cf9f36eeb6fa79b6a5d8"
     end
     on_arm do
       url "https://github.com/branchmore/cli/releases/download/v#{version}/bmor_#{version}_linux_arm64.tar.gz"
-      sha256 "045173c1695ac4352a681bc6895e913000792868e69cb8a1cb62c1ac1e256e94"
+      sha256 "ee3aa6e839507470c67468c972c445daa7df6c20a952c760681bdf1bf12c304b"
     end
   end
 
